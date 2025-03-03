@@ -1,116 +1,110 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title >个人简介</title>
-    <link rel="stylesheet" href="zhexiantu/style.css">
+    <title>Title</title>
     <style>
-        body{
-        font-family:Arial,Helvetica,sans-serif;
-        font-size:20px;}
+        table{
+        border-collapse:collapse;
+        width:800px;
+        /*  在页面上居中*/
+        margin:0 auto;}
 
+        table,th,td{
+            border:1px solid #000;}
 
-        p{
-        font-family:'Times New Roman',Times,serif;
-        color:brown;}
+        th,td{
+            padding:8px;
+        text-align:center;}
+        th{width:100px;
+        background-color:rgb(242,242,242);}
 
-
-         h1{color:blue;
-        }
-        .custom-img
-        {width:400px;height:300px;
-        object-fit:cover;}
-
-
-        .sidebar {
-         flex: 1;  /* 侧边栏占 1 份宽度 */
-            background-color: #f0f5f5;
-            padding: 20px;
-            border-left: 1px solid #ddd;
-            }
 
     </style>
 </head>
+<body>
+<!--   表格 table:最外层的标签
+        th 标题
+        tr 横向的一行
+        td 表示tr中有几项
+-->
+        <table>
+            <tr>
+                <th>姓 名</th>
+                <td>ting</td>
+                <th>性 别</th>
+                <td>女</td>
+                <td rowspan="5" width="150"px>
+                    <img src="weixin.jpg " style="width:200px; height:200px;" alt="图片">
+                </td>
 
-<body bgcolor="white">
-      <i>
-        <header>这里是tingting的个人简介</header>
+            </tr>
+            <tr>
+                <th>民 族</th>
+                <td>汉</td>
+                <th>出生年月</th>
+                <td>2008.08</td>
 
-          </i>
+            </tr>
+            <tr>
+                <th>政治面貌</th>
+                <td>群众</td>
+                <th>学 制</th>
+                <td>四年</td>
+            </tr>
+            <tr>
+                <th>学 历</th>
+                <td>本科</td>
+                <th>专 业</th>
+                <td>智能科学与技术</td>
+            </tr>
+            <tr>
+                <th>身高/体重</th>
+                <td>160</td>
+                <th>身体状况</th>
+                <td>良好</td>
+            </tr>
+            <tr>
+                <th>籍 贯</th>
+                <td>山东</td>
+                <th>毕业院校</th>
+                <td colspan="2">西南大学</td>
+            </tr>
+            <tr>
+                <th>联系电话</th>
+                <td>999999</td>
+                <th>联系地址</th>
+                <td colspan="2">重庆市xxxxxxxxxx</td>
 
-        <li><a href="https://home.firefoxchina.cn/?from=extra_start" target="_blank">最新消息</a></li>
-        <li><a href="https://www.swu.edu.cn/" target="_blank">所处学校</a></li>
-        <li><a href="#">最新消息</a></li>
-        <li><a href="#">最新消息</a></li>
+            </tr>
+            <tr>
+                <th>教育背景</th>
+                <td colspan="4" style="text-align:left; height:80px;">本科期间将学习机器学习、深度学习、自然语言处理、计算机视觉、数据结构与算法、Python编程、大数据分析等内容。<br>目前就读于西南大学，为24级本科生。</td>
+            </tr>
+            <tr>
+                <th>本科经历</th>
+                <td colspan="4" style="text-align:left; height:80px;">职务：担任过学院的学生会干事成员<br>
+                竞赛经历：暂无，后续补充</td>
+            </tr>
 
-
-      <blockquote>
-          "书山有路勤为径<br>学海无涯苦作舟"
-      </blockquote>
-
-      <main>
-          <h1 >Hello：</h1>
-          <p >
-              欢迎来到我的个人简介页面<br>
-              Welcome to my profile page.
-
-          </p>
-
-          <h2 >
-              个人简单介绍：
-          </h2>
-
-          <p>
-              姓名：wtt<br>
-              <br>
-              出生日期及地点：2005年8月，山东省济南市<br>
-
-              就读学校：西南大学    <a href="https://www.swu.edu.cn/" target="_blank" > (学校详情请看学校官网)</a><br>
-              就读专业：智能科学与技术 <a href="https://baike.baidu.com/item/%E6%99%BA%E8%83%BD%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF/5068669" target="_blank">（专业详情）</a><br>
-              教育背景：将于2028年以本科生的身份毕业于西南大学<br>
-              工作经验:暂无,目前仍在求学<br>
-              <br>
-              大学总结：学习新知识，其中包括高中涉及过的，更多的包含专业课知识，学习这些让自己的知识储备更丰富，为将来的进一步发展奠定了基础；除了学习，空闲时间，见到了各种各样的美景，品尝到了很多美食，这些都是难忘的经历，它们共同组成了大学生活。
-              <br>
-              <br>
-              个人意愿：希望能通过四年的大学生生活增长自己的见识，能够系统深入地获取专业知识，为未来职业发展筑牢基础，空闲之余能够广泛涉猎其它领域的知识，从各方面提升自己的能力。
-
-
-
-          </p>
-          <h4>
-              校园美景
-          </h4>
-          <img src="微信图片_20250302143022.jpg " class="custom-img" alt="校园景色">
-          </img>
-          <img src="微信图片_20250302144736.jpg"  class="custom-img"   alt="该图片也未显示"> </img>
-
-      </main>
-
-      <aside class="sidebar">
-      <h4>导航菜单</h4>
-      <nav>
-        <ul>
-          <li><a href="http://localhost:63342/python/templates/index2.html?_ijt=cqubmh18ub69qnt32mcqmoleub&_ij_reload=RELOAD_ON_SAVE" target="_blank">首页</a></li>
-          <li>关于我们</li>
-        </ul>
-      </nav>
-    </aside>
-
+            <tr>
+                <th>个人志向</th>
+                <td colspan="4" style="text-align:left; height:80px;">希望能通过四年的大学生生活增长自己的见识，能够系统深入地获取专业知识，为未来职业发展筑牢基础，空闲之余能够广泛涉猎其它领域的知识，从各方面提升自己的能力。
+                </td>
+            </tr>
+            <tr>
+                <th>兴趣爱好</th>
+                <td colspan="4" style="text-align:left; height:80px;">收听播客</td>
+            </tr>
+            <tr>
+                <th>个人规划</th>
+                <td colspan="4" style="text-align:left; height:80px;">在本科期间学好专业课知识；除此之外，尽早通过英语四六级，多参加竞赛，广泛地涉猎一些不同方面的知识，空闲之余，能够通过自己的努力不断学习到新知识，充实自我；也可以多到外面的世界转转，增加自己的见识；最后希望能够在大三完成实习之后准备考研，力争做到本科毕业之后能够进入心仪的学校。</td>
+            </tr>
+        </table>
 
 
-
-      <hr>
-
-      <footer>个人联系方式:222220000</footer>
 </body>
 </html>
-
-
-
-
-
-
 
 
 
